@@ -20,9 +20,6 @@ button.addEventListener('click',function(){
         
         //creazione quadrati
         let square = document.createElement('div');
-
-        //classe del quadrato
-        square.classList.add('square');
         
         return square;
     };
@@ -34,7 +31,7 @@ button.addEventListener('click',function(){
             //variabile della funzione
             let square = create_square();
 
-            //classa dimensione quadrati
+            //classe dimensione quadrati
             square.classList.add('square1');
             
             //stampa numeri quadrati
@@ -56,7 +53,7 @@ button.addEventListener('click',function(){
         
             let square = create_square();
 
-            //classa dimensione quadrati
+            //classe dimensione quadrati
             square.classList.add('square2');
             
             //stampa numeri quadrati
@@ -79,7 +76,7 @@ button.addEventListener('click',function(){
             //variabile della funzione
             let square = create_square();
 
-            //classa dimensione quadrati
+            //classe dimensione quadrati
             square.classList.add('square3');
             
             //stampa numeri quadrati

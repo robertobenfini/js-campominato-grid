@@ -52,7 +52,7 @@ main{
     height: 1000px;
 }
 
-.square{
+.square1, .square2, .square3{
     background-color: aqua;
     border: 2px solid white;
     display: flex;
