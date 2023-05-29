@@ -10,6 +10,7 @@ let select = document.getElementById('difficulty');
 //funzione click bottone
 button.addEventListener('click',function(){
     
+    //svoto la griglia
     grid.innerHTML='';
 
     //variabile valore select
@@ -40,6 +41,7 @@ button.addEventListener('click',function(){
             //funzione click per colorare quadrato selezionato
             square.addEventListener('click', function(){
                 this.classList.toggle('clicked');
+                //stampa in console numero cliccato
                 console.log(i);
             });
     
@@ -51,6 +53,7 @@ button.addEventListener('click',function(){
     else if(difficulty === '2'){
         for(let i=1; i<=81; i++){
         
+            //variabile della funzione
             let square = create_square();
 
             //classe dimensione quadrati
@@ -62,6 +65,7 @@ button.addEventListener('click',function(){
             //funzione click per colorare quadrato selezionato
             square.addEventListener('click', function(){
                 this.classList.toggle('clicked');
+                //stampa in console numero cliccato
                 console.log(i);
             })
     
@@ -85,6 +89,7 @@ button.addEventListener('click',function(){
             //funzione click per colorare quadrato selezionato
             square.addEventListener('click', function(){
                 this.classList.toggle('clicked');
+                //stampa in console numero cliccato
                 console.log(i);
             });
     

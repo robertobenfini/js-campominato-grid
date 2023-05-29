@@ -48,8 +48,8 @@ main{
 }
 
 .square{
-    width: calc(1000px / 10);
-    height: calc(1000px / 10);
+    width: calc(100% / 10);
+    height: calc(100% / 10);
     background-color: aqua;
     border: 2px solid white;
     display: flex;
